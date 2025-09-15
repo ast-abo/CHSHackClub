@@ -1,0 +1,16 @@
+main {
+    text-align: center;
+    background-color: grey;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    background-color: grey;
+}
+
+footer {
+    margin-top: 30%;
+}
