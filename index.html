@@ -1,22 +1,81 @@
-<html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css" />
-    <title> CHS Hack Club </title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CHS Hack Club</title>
+  <style>
+    /* Reset some defaults */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    .container {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 2rem 3rem;
+      max-width: 500px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #0d3b66;
+    }
+
+    p {
+      margin-bottom: 1.5rem;
+      font-size: 1.1rem;
+      color: #334e68;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      font-size: 1.1rem;
+      color: white;
+      background-color: #0077b6;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .btn:hover {
+      background-color: #005f87;
+      transform: translateY(-2px);
+    }
+
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #8892a6;
+    }
+  </style>
 </head>
-
-<main>
-    <header>
-        <h1> CHS Hack Club </h1>
-    </header>
-
-    <body>
-        <a id="JoinLink" href="https://join.slack.com/t/hackclub/shared_invite/zt-3d3lum5yr-MneehvXa8I8KaeC6FgJ4qQ"> Join! </a>
-    </body>
-
-    <footer>
-        <p>working on it </p>
-    </footer>
-</main>
-
+<body>
+  <div class="container">
+    <h1>CHS Hack Club</h1>
+    <p>We are working on it — coming soon. Meanwhile, go get a cookie!</p>
+     <a id="JoinLink" href="https://join.slack.com/t/hackclub/shared_invite/zt-3d3lum5yr-MneehvXa8I8KaeC6FgJ4qQ"> Join! </a>
+    <div class="footer">
+      &copy; 2025 CHS Hack Club. All rights reserved.
+    </div>
+  </div>
+</body>
 </html>
