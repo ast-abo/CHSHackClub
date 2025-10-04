@@ -1,16 +1,72 @@
-main {
-    text-align: center;
-    background-color: grey;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header {
-    text-align: center;
-}
-
+/* Body Styling */
 body {
-    background-color: grey;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(135deg, #fff4e6, #ffe8cc);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem;
 }
 
-footer {
-    margin-top: 30%;
+/* Main Container */
+.container {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 3rem 2.5rem;
+  max-width: 520px;
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-4px);
+}
+
+/* Title */
+h1 {
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: #ff7a00; /* Vibrant orange */
+  margin-bottom: 1rem;
+}
+
+/* Paragraph */
+p {
+  font-size: 1.15rem;
+  color: #555;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  background-color: #ff7a00;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.9rem 2rem;
+  border-radius: 8px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+  background-color: #e56a00;
+  transform: translateY(-2px);
+}
+
+/* Footer */
+.footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #888;
 }
